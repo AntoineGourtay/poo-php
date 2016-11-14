@@ -1,7 +1,10 @@
 <?php
 namespace Hetic;
 
-
+/**
+ * Class Human
+ * @package Hetic
+ */
 abstract class Human
 {
     private $weight = 0;

@@ -1,7 +1,10 @@
 <?php
 namespace Hetic;
 
-
+/**
+ * Class Man
+ * @package Hetic
+ */
 class Man extends Human
 {
     public function getWeight(): int
