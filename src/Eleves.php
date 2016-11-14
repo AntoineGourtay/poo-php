@@ -28,7 +28,7 @@ class Eleves
 
     public function saveEleve($id, $firstname, $lastname)
     {
-        
+        $this->collectionEleve->array_push($this->collectionEleve, $id , array($firstname, $lastname));
     }
 
     /********* GETTERS & SETTERS *********/
