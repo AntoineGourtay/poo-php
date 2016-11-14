@@ -1,0 +1,10 @@
+{
+    "name": "antoinegourtay/h3p2019",
+    "require": {},
+  "autoload": {
+    "psr-4": {
+      "Hetic\\": "src/"
+    }
+  }
+
+}
